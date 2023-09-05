@@ -1,9 +1,11 @@
-import Form from "./components/Form";
+// import Form from "./components/Form";
+import FormWithZod from "./components/FormWithZod";
 
 function App() {
   return (
     <div>
-      <Form />
+      {/* <Form /> */}
+      <FormWithZod />
     </div>
   );
 }
