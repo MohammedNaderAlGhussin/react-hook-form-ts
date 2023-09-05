@@ -10,6 +10,7 @@ const Form = () => {
   } = useForm();
 
   const onSubmit = async (data: FieldValues) => {
+    console.log(data);
     await new Promise((resolve) => setTimeout(resolve, 1000));
 
     reset();
